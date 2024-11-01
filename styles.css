@@ -1,0 +1,55 @@
+body {
+    background-image: url(floresta2.jpg);
+    /* background-position: center center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+
+  section {
+    background:  rgba(255, 255, 255, 0.30);
+    border-radius: 10px;
+    padding: 15px;
+    width: 746px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.432);
+}
+  
+  header {
+    background-color: #006400;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  header nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+  }
+  
+  header nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .intro, .mapa, .alertas, .contato {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  button {
+    background-color: #ffa500;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ff8c00;
+  }
+  
